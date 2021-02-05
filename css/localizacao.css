@@ -1,0 +1,54 @@
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: var(--turquesa);
+    color: var(--rosaforte);
+}
+
+.localizacao__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.localizacao__descricao {
+    margin-bottom: 2rem;
+}
+
+.localizacao__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.localizacao__contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+}
+
+.localizacao__contato-telefone {
+    line-height: normal;
+}
+
+.localizacao__contato-email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}
+
+.localizacao__video {
+    width: 100vw;
+}
