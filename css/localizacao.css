@@ -52,3 +52,34 @@
 .localizacao__video {
     width: 100vw;
 }
+
+@media screen and (min-width: 768px) {
+    .localizacao__video {
+        max-width:100%;
+    }
+
+    .localizacao__contato-email {
+        display:inline-block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .localizacao__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+
+    .localizacao__video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .localizacao__contato-email {
+        display: block;
+    }
+}
