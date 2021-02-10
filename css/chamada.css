@@ -1,6 +1,7 @@
 
 .chamada {
     color: white;
+   
 }
 
 
@@ -23,8 +24,7 @@
 
 .chamada__botao {
     font-weight: 500;
-    margin-bottom: 4.5rem;
-
+    margin-bottom: 2.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,8 +36,12 @@
 
 @media screen and (min-width: 1024px) {
     .chamada{
-        background-image: url(../imagens/...);
+        background-image: url(../imagens/fotos/fotopao1.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        height: calc(100vh - 307px);  
 
         padding-top: 8.25rem;
     }
@@ -45,6 +49,10 @@
     .chamada__titulo {
         font-size: 3.25rem;
         margin-bottom: 2rem;
+    }
+
+    .chamada__descricao {
+        margin-bottom: 2.5rem;
     }
     
 }
