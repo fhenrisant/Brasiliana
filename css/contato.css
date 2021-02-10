@@ -1,7 +1,7 @@
 .contato {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content:space-evenly;
 
     text-align: center;
 
@@ -9,7 +9,7 @@
     padding-bottom: 2rem;
 
     color: var(--rosaforte);
-    background-color: var(--turquesa);
+    background-color: var(--bege);
 }
 
 .contato__titulo {
@@ -21,10 +21,45 @@
     margin-bottom: 1.25rem;
 }
 
-.contato__botao {
-    color: var(--cinza-escuro);
+.contato__artigo {
+    font-size: 1.2rem;
+    line-height: 1.8;
 
-    border-color: var(--cinza-escuro);
-
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
+
+
+.contato__contato-telefone {
+    line-height: normal;
+}
+
+.contato__contato-email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}
+
+.contato__trigo {
+   display: none;
+}
+
+@media screen and (min-width: 640px) {
+    .contato__trigo{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contato__contato-email {
+        display:inline-block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contato__contato-email {
+        display: block;
+    }
+}
+
