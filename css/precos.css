@@ -1,5 +1,5 @@
 .precos {
-    background-color: lightgray;
+    background-color: var(--trigo);
     
     padding-top: 3rem;
     padding-bottom: 3rem;

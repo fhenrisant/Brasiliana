@@ -2,17 +2,15 @@
 :root{
     --trigo: #ecdcc1;
     --salmao: #f09c95;
-
     --rosaforte: #eb6383;
-    --rosaclaro: #fa9191;
-    --bege: #ffe9c5;
     --turquesa: #b4f2e1;
+    --rosaclaro: #fa9191;
 
 }
 
 
 body{
-    background-color: var(--rosaclaro);
+    /**background-color: var(--rosaclaro);*/
     font-family: 'Indie Flower', cursive;
    
 }
