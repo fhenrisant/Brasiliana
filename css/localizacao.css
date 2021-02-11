@@ -12,6 +12,10 @@
     color: black;
 }
 
+.localizacao__conteudo {
+    width: 90%;
+}
+
 .localizacao__titulo {
     font-weight: 700;
     font-size: 1.5rem;
@@ -23,29 +27,32 @@
 
 .localizacao__descricao {
     margin-bottom: 2rem;
-}
-
-.localizacao__endereco {
     font-size: 1.5rem;
     line-height: normal;
 
-    margin-bottom: 2rem;
 }
 
-.localizacao__imagem {
-    display: none;
+/**.localizacao__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+} */
+
+.localizacao__mapa {
+    width: 100%
 }
 
 @media screen and (min-width:640px) {
    
     .localizacao__conteudo{
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content:space-between;
     }
 
-    .localizacao__imagem {
+    .localizacao__mapa {
+        width: 50%;
         display: block;
     }
 

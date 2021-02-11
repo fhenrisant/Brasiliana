@@ -10,19 +10,6 @@
     background-color: var(--rosaclaro);
 }
 
-.rodape__social {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.rodape__midia {
-    display: block;
-
-    width: 42px;
-    height: 42px;
-
-    margin: 2rem 1rem;
-}
 
 .rodape__navegacao {
     color: var(--branco);
