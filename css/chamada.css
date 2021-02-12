@@ -2,7 +2,6 @@
 .chamada {
     padding-top: 1.5rem;
     color: white;
-    background-color: ;
     height: 63vh;
     /**box-sizing: border-box;*/
     background-color: grey;
@@ -45,6 +44,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        opacity: 0.7;
 
         height: calc(100vh - 307px);  
 
@@ -58,6 +58,9 @@
 
     .chamada__descricao {
         margin-bottom: 2.5rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 30px;
     }
     
 }

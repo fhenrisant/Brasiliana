@@ -6,15 +6,16 @@
     padding-top: 2.5rem;
     padding-bottom: 2rem;
 
-    color: white;
+
     background-color: var(--rosaclaro);
+
 }
 
 
 .rodape__navegacao {
-    color: var(--branco);
+    color: black;
     text-align: center;
-    line-height: 3;
+    font-weight: 900;
 }
 
 
@@ -28,7 +29,7 @@
     .rodape {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:space-evenly;
     }
 
     .rodape__navegacao {
