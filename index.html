@@ -19,6 +19,7 @@
       <link href="css/contato.css" rel="stylesheet">
       <link href="css/localizacao.css" rel="stylesheet">
       <link href="css/rodape.css" rel="stylesheet">
+      <link href="css/encomendas.css" rel="stylesheet">
     </head>
 
     <body>
@@ -48,23 +49,19 @@
         <section class="produtos container">
           <h2 class="produtos__titulo">Produtos</h2>
           <section class="produtos__portfolio">
-          <a href="#">
             <figure class="produtos__painel">
-              <img src="imagens/fotos/fotopao2.jpg" alt="Pão artesanal" class="produtos__painel-imagem">
+              <img src="imagens/fotos/fotopao2.jpeg" alt="Pão artesanal" class="produtos__painel-imagem">
               <figcaption class="produtos__painel-texto">Pães com fermento natural</figcaption>
             </figure>
-          </a>
 
             <figure class="produtos__painel">
               <img id="produtos__logo" src="imagens/logo_reduzido/logo-nome-completo-190-removebg.png" class="produtos__painel-imagem" alt="logo Brasiliana">
             </figure>
 
-          <a href="#">
             <figure class="produtos__painel">
-              <img src="imagens/fotos/fotoqueijo1.jpg" alt="Queijo branco" class="produtos__painel-imagem">
+              <img src="imagens/fotos/fotoqueijo1B.jpg" alt="Queijo branco" class="produtos__painel-imagem">
               <figcaption class="produtos__painel-texto">Queijos brancos sem adição de conservantes e espessantes</figcaption>
             </figure>
-          </a>
           </section>
           <a href="#" class="produtos__botao botao">Consulte os nossos preços</a>
         </section>
@@ -105,39 +102,44 @@
          <section class="precos container">
           <h2 class="precos__titulo">Preços</h2>
           <ul class="precos__cartoes">
-              <li class="cartao cartao--start">
-                  <h3 class="cartao__titulo">isdhgksdgn</h3>
+              <li class="cartao cartao--pao">
+                  <h3 class="cartao__titulo">Pão</h3>
                   <article class="cartao__conteudo">
                       <p class="cartao__preco"><em>R$ 999</em></p>
                       <p class="cartao__texto">ijfsnioiosd</p>
                       <p class="cartao__texto">kjhsing</p>
                       <p class="cartao__texto">khjsndi ijnvsion</p>
-                      <a href="#" class="cartao__botao cartao__botao--start botao">Encomendar</a>
+                      <button type="button" class="cartao__botao cartao__botao--pao botao">Encomendar</button>
                   </article>
               </li>
-              <li class="cartao cartao--ultra">
-                  <h3 class="cartao__titulo">ijngsdi</h3>
+              <li class="cartao cartao--queijo">
+                  <h3 class="cartao__titulo">Queijo</h3>
                   <article class="cartao__conteudo">
                       <p class="cartao__preco"><em>R$ 999</em></p>
                       <p class="cartao__texto">kjdi dkiojng</p>
                       <p class="cartao__texto">jhsio ijs</p>
                       <p class="cartao__texto">sd opjdfb pjdf g</p>
                       <p class="cartao__texto">djog odjgdsg</p>
-                      <a href="" class="cartao__botao cartao__botao--ultra botao">Encomendar</a>
+                      <button type="button" class="cartao__botao cartao__botao--queijo botao">Encomendar</button>
                   </article>
               </li>
-              <li class="cartao cartao--mega">
-                  <h3 class="cartao__titulo">sdgdg</h3>
+              <li class="cartao cartao--torta">
+                  <h3 class="cartao__titulo">Torta</h3>
                   <p class="cartao__preco"><em>R$ 999</em></p>
                   <article class="cartao__conteudo">
                       <p class="cartao__texto">sdgj oijiojg ojioj</p>
                       <p class="cartao__texto">kljs iojgiosdn</p>
                       <p class="cartao__texto">jsiodgjd ojgsd</p>
-                      <a href="" class="cartao__botao cartao__botao--mega botao">Encomendar</a>
+                      <button type="button" class="cartao__botao cartao__botao--torta botao">Encomendar</button>
                   </article>
               </li>
-          </ul>
+          </ul> 
         </section>
+
+        <section class="encomendas container">
+          <ul class="lista__encomenda">
+          </ul>
+         </section>
 
         <section class="contato container">
           <article class="contato__artigo">
@@ -185,6 +187,7 @@
           </ul>
         </nav>
       </footer>
+      <script src="javascript/encomendas.js"></script>
 
     </body>
 

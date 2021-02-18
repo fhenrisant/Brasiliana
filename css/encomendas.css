@@ -1,0 +1,16 @@
+
+.encomendas {
+    background-color: var(--rosaclaro);
+    display: flex;
+    justify-content: center;
+}
+
+.lista__encomenda {
+    
+    
+    
+}
+
+.item__encomenda {
+    font-size: 2rem;
+}
