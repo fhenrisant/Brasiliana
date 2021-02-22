@@ -2,15 +2,26 @@
 .encomendas {
     background-color: var(--rosaclaro);
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 .lista__encomenda {
-    
-    
-    
+    width: 300px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .item__encomenda {
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 2rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__confirmado {
+    font-size: 2.5rem;
+    color:green;
+    font-weight: bold;
 }

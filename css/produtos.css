@@ -26,7 +26,7 @@
     width: 100vw;
     max-width: 390px;
     max-height: 292px;
-    //*box-shadow: 0 2px 10px 5px #00000020;*/
+    /*box-shadow: 0 2px 10px 5px #00000020;*/
     margin-bottom: 0.5rem;
 
 }
@@ -56,8 +56,9 @@
     .produtos__portfolio {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items:baseline;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+       /* align-items:baseline; */
     }
 
     .produtos__painel-imagem {
